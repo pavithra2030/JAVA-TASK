@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class ElseIfEx{
+public ststic void main(String args[]){
+Scanner op = new Scanner(system.in);
+System.out.println("Enter your mark");
+int mark = op.nextInt();
+if((mark>0)&&(mark<35)){
+	System.out.println("Grade C");
+}elseif((mark>35)&&(mark<75)){
+	System.out.println("Grade B")
+}elseif((mark>75)&&(mark<90)){
+	System.out.println("Grade A")
+}else
+	System.out.println("Grade A+")
+}
+}
+}
